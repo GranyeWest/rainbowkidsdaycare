@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fauzia's Rainbow Kids Home Daycare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to right, #ffb347, #ffcc33);
+            padding: 50px;
+            text-align: center;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            border-bottom-left-radius: 50% 20px;
+            border-bottom-right-radius: 50% 20px;
+        }
+        header h1 {
+            font-family: 'Baloo 2', cursive;
+            font-size: 3.5rem;
+            color: #ffffff;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 25px;
+            font-weight: bold;
+            font-size: 1.4rem;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffeb99;
+        }
+        .content {
+            padding: 50px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: #ffffff;
+            border-radius: 25px;
+            box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.15);
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .hero-image {
+            width: 100%;
+            height: auto;
+            border-radius: 25px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-top: 50px;
+        }
+        section h2 {
+            font-family: 'Baloo 2', cursive;
+            font-size: 2.8rem;
+            color: #ffb347;
+            margin-bottom: 25px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        section p, section ul {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #555;
+        }
+        ul li {
+            margin-bottom: 20px;
+        }
+        footer {
+            background: linear-gradient(to right, #ffb347, #ffcc33);
+            padding: 25px;
+            text-align: center;
+            margin-top: 50px;
+            color: #fff;
+            box-shadow: 0px -4px 15px rgba(0, 0, 0, 0.2);
+            border-top-left-radius: 50% 20px;
+            border-top-right-radius: 50% 20px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form label {
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1rem;
+        }
+        .contact-form button {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #ffb347;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .contact-form button:hover {
+            background-color: #ffcc33;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fauzia's Rainbow Kids Home Daycare</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#programs">Programs</a>
+            <a href="#contact">Contact</a>
+            <a href="#schedule">Daily Schedule</a>
+            <a href="#fieldtrips">Field Trips</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <img src="https://via.placeholder.com/1200x400" alt="Happy kids playing" class="hero-image">
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Fauzia's Rainbow Kids Home Daycare! We offer a loving, safe, and educational environment for children to grow, learn, and play. Our experienced caregivers are dedicated to providing a fun, educational environment that helps foster development, creativity, and important values such as good manners, caring, sharing, patience, responsibility, communication, and teamwork. We also offer preschool activities such as learning the alphabet, shapes, colors, numbers, and name recognition.</p>
+        </section>
+
+        <section id="programs">
+            <h2>Our Programs</h2>
+            <ul>
+                <li><strong>Infant Care:</strong> Specialized care for infants, ages 0-18 months.</li>
+                <li><strong>Toddler Program:</strong> Interactive play and early learning for toddlers, ages 18 months - 3 years.</li>
+                <li><strong>Preschool:</strong> A structured, fun learning environment for children ages 3-5.</li>
+            </ul>
+        </section>
+
+        <section id="schedule">
+            <h2>Daily Schedule</h2>
+            <ul>
+                <li><strong>7:30:</strong> Arrival and Free Play</li>
+                <li><strong>8:30:</strong> Morning Snack</li>
+                <li><strong>9:00:</strong> Circle Time</li>
+                <li><strong>9:30:</strong> Small Group Activities</li>
+                <li><strong>9:50:</strong> AM Snack</li>
+                <li><strong>10:10:</strong> Outside Play</li>
+                <li><strong>11:00:</strong> Free Choices/Toilet</li>
+                <li><strong>11:30:</strong> Lunch Time</li>
+                <li><strong>12:30:</strong> Nap Time</li>
+                <li><strong>2:30:</strong> Afternoon Snack</li>
+                <li><strong>3:00:</strong> Outside Play</li>
+                <li><strong>4:00:</strong> Indoor Activities (Table Toys, Coloring, etc.)</li>
+                <li><strong>4:30:</strong> Clean-up and Departure</li>
+                <li><strong>5:00:</strong> Closing Time</li>
+            </ul>
+        </section>
+
+        <section id="fieldtrips">
+            <h2>Field Trips</h2>
+            <p>We love to go on field trips! Some of our favorite destinations include the local library, nearby parks, and Belchers Marsh pond and trails. Parent volunteers are always welcome and appreciated. For trips that require travel, we may use public transportation, and parents may be asked to provide car seats or pay associated fees. Safety is our priority, and all children will be in safety-approved car seats as needed.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fauzia's Rainbow Kids Home Daycare. All rights reserved.</p>
+    </footer>
+</body>
+</html>
